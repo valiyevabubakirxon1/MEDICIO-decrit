@@ -5,13 +5,44 @@
 }
 
 header .back {
-  background-color: aqua;
+  display: flex;
+  background-color: #3fbbc0;
+  align-items: center;
+  padding-top: 10px;
 }
 header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 15px;
+  border: none;
 }
 header li {
   list-style: none;
+  border: none;
+  font-size: 13px;
+}
+header ul button {
+  padding: 5px 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3fbbc0;
+  color: white;
+  font-weight: bold;
+}
+header select {
+  border: 0px;
+}
+
+main .carousel-item {
+  height: 800px;
+}
+main .carousel-control-prev, main .carousel-control-next {
+  background-color: #3fbbc0;
+  border-radius: 50px;
+  padding: 8px;
+  width: 60px;
+  height: 60px;
+  margin-top: 350px;
+  margin: 350px 100px 0px 100px;
 }/*# sourceMappingURL=style.css.map */
