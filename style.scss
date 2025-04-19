@@ -11,6 +11,7 @@ $bg-color-GREEN: #3fbbc0;
 }
 
 header {
+
     position: sticky;
     top: 0.1px;
     z-index: 2;
@@ -46,7 +47,6 @@ header {
 
     ul {
         width: 100%;
-        // margin-left: 130px;
         float: right;
     }
 
@@ -68,10 +68,11 @@ header {
 }
 
 .sec1 {
-    .carousel{
+
+    .carousel {
         position: relative;
         z-index: 1;
-    }   
+    }
 
     .carousel-item {
         height: 700px;
@@ -112,52 +113,19 @@ header {
         }
     }
 
-    .row .fx2:hover {
-        background-color: #3fbbc0;
-        color: #fff;
+    .col-3:hover {
+        background-color: $bg-color-GREEN;
+        color: white;
         transition: 0.7s;
 
         i {
-            color: #fff;
+            color: white;
             transition: 0.7s;
         }
     }
-
-    .row .fx3:hover {
-        background-color: #3fbbc0;
-        color: #fff;
-        transition: 0.7s;
-
-        i {
-            color: #fff;
-            transition: 0.7s;
-        }
-    }
-
-    .row .fx4:hover {
-        background-color: #3fbbc0;
-        color: #fff;
-        transition: 0.7s;
-
-        i {
-            color: #fff;
-            transition: 0.7s;
-        }
-    }
-
-    .row .fx5:hover {
-        background-color: #3fbbc0;
-        color: #fff;
-        transition: 0.7s;
-
-        i {
-            color: #fff;
-            transition: 0.7s;
-        }
-    }
-
 }
 
+//section 3//
 .sec3 {
     background-color: #3fbbc0;
     background-repeat: no-repeat;
@@ -185,9 +153,9 @@ header {
     }
 }
 
+//section 4//
 .sec4 {
     text-align: center;
-    font-family: "Gill Sans", sans-serif;
 
     .col {
         font-size: 13px;
@@ -195,25 +163,24 @@ header {
     }
 }
 
-.sec5{
-    .col-2{
-        box-shadow: 2px 3px 10px 2px rgba(34, 60, 80, 0.2);
-                margin: 0px 50px;
+//section 5//
+.sec5 {
+    .col-2 {
+        box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+        margin: 0px 50px;
 
-        i{
+        i {
             color: #3fbbc0;
         }
     }
 }
 
-
 //section 6//
 
-.sec6{
+.sec6 {
     font-size: 13px;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    i{
+
+    i {
         box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
         color: $bg-color-GREEN;
         border-radius: 5px;
@@ -221,16 +188,106 @@ header {
         margin: 20px;
     }
 
-    .ic:hover{
-        i{
+    .ic:hover {
+        i {
             color: white;
             background-color: $bg-color-GREEN;
             transition: 0.7s;
         }
 
-        h4{
+        h4 {
             color: $bg-color-GREEN;
             transition: 0.7s;
         }
     }
+}
+
+//section 7//
+
+.sec7 {
+    .col-3 {
+        margin: 0px 55px;
+
+        i {
+            color: $bg-color-GREEN;
+            border-radius: 50px;
+            box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+            padding: 20px;
+        }
+    }
+
+    .col-3:hover {
+        h4 {
+            color: $bg-color-GREEN;
+            transition: 0.7s;
+        }
+    }
+}
+
+//section 8//
+
+.sec8 {
+    .col-4 {
+
+        input,
+        select {
+            paddding: 10px;
+            width: 95%;
+            height: 40px;
+        }
+
+        input,
+        select::placeholder {
+            padding-left: 20px;
+        }
+    }
+
+    button {
+        width: 300px;
+        background-color: $bg-color-GREEN;
+        color: white;
+        margin-left: 550px;
+    }
+}
+
+//section 9//
+
+.sec9 {
+    .dep {
+        border-right: 3px solid $bg-color-GREEN;
+
+        li {
+            display: block;
+            font-weight: 600;
+            padding-top: 12px;
+        }
+    }
+}
+
+.sec10 {
+
+    .vv1 {
+
+        box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+    }
+
+}
+
+
+.sec11 {
+
+    .vv2 {
+
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .vv3{
+        margin-left: 160px;
+    }
+
 }
